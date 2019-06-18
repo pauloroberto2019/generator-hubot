@@ -3,9 +3,9 @@ sudo: false
 notifications:
   email: false
 node_js:
-  - "10" # stable
-  - "8" # LTS
-  - "6" # maintenance
+  - "8" # stable
+  - "6" # LTS
+  - "4" # maintenance
 before_install:
   - npm install -g npm@latest
 before_script:
